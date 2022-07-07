@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  *   * print_times_table - Prints a multiplication table up to parameter
  *     * @n: The number to be treated
