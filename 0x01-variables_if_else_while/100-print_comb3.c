@@ -13,12 +13,13 @@ c = i = '0';
 for (c = '0'; c < '9'; c++)
 {
 for (i = '1'; i <= '9'; i++)
-{		
-if((c != i) && (i > c))
+{	
+
+if ((c != i) && (i > c))
 {
 putchar(c);
 putchar(i);
-if (c != '8' || (c== '8' && i != '9'))
+if (c != '8' || (c == '8' && i != '9'))
 putchar(',');
 putchar(' ');
 }
