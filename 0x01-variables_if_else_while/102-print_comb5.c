@@ -1,50 +1,56 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
 /**
- *
- *  *main - prints all possible different combinations of two digits
- *
- *   *
- *
- *    *Return: 0
- *
+ *   * main - Prints 3 combination of numbers
+ *     *
+ *       * Return: Always (Success)
 */
-
 int main(void)
-
 {
+int c, i, k, j;
 
-int ch;
-int n;
-
-
-for (ch = 48; ch <= 57; ch++)
+for (c = 48; c <= 57; c++)
 {
+for (i = 48; i <= 57; i++)
+{
+for (k = 48; k <= 57; k++)
+{
+for (j = 48; j <= 57; j++)
+{
+if (((k + j) > (c + i) &&  k >= c) || c < k)
+{
+putchar(c);
+putchar(i);
+putchar(' ');
+putchar(k);
+putchar(j);
 
-for (n = 49; n <= 57; n++)
+if (c + i + k + j == 227 && c == 57)
 {
-if (n > ch)
-{
-putchar(ch);
-putchar(n);
+break;
 
-if (ch != 56 || n != 57)
+}
+
+else
 {
-putchar(44);
-putchar(32);
+putchar(',');
+putchar(' ');
 
 }
 
 }
 
 }
+			
+}
 
 }
 
-putchar(10);
+}
+
+putchar('\n');
 
 return (0);
-
 }
+
+
