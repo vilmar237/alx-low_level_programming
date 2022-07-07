@@ -1,17 +1,21 @@
 #include "main.h"
+
 /**
- *   * print_alphabet - Make the alphabet
+ *   * main - Entry point
  *     *
- *       * Return: void
+ *       * Return: Always 0
  *         */
-void print_alphabet(void)
+int main(void)
 {
-char c;
+putchar('_');
+putchar('p');
+putchar('u');
+putchar('t');
+putchar('c');
+putchar('h');
+putchar('a');
+putchar('r');
+putchar('\n');
 
-for (c = 'a'; c <= 'z'; c++)
-{
-_putchar(c);
-}
-
-_putchar('\n');
+return (0);
 }
