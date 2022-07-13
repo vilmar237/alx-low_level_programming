@@ -1,7 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *  *function to update value it point to 98 
+ *  *function to update value n it point to 98
+ *
  *   *
  *    * Return: Always 0.
 */
