@@ -3,8 +3,8 @@
 /**
  *  *function to update value n it point to 98
  *
- *   *
- *    * Return: Always 0.
+ *   *@n >pointer to n
+ *    * Return: void 
 */
 void reset_to_98(int *n)
 {
