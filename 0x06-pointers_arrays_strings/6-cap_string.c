@@ -5,7 +5,7 @@
  *   * @str: char type pointer
  *    *
  *     * Return: pointer
- *      */
+*/
 char *cap_string(char *str)
 {
 int i;
