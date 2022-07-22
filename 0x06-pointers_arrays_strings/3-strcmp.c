@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  *  *_strcmp - a function that compares two strings
@@ -7,7 +7,7 @@ include "main.h"
  *     * @s2: The function of strcmp
  *      *
  *       * Return: Always 0.
- */
+*/
 int _strcmp(char *s1, char *s2)
 {
 while (((*s1 != '\0') && (*s2 != '\0')) && (*s1 == *s2))
