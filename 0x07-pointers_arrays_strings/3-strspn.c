@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  *  * _strspn - gets the length of a prefix substring
  *   * @s: segment to compare bytes from
@@ -19,10 +18,8 @@ while (accept[j] != '\0' && s[i] != accept[j])
 j++;
 if (accept[j] == '\0')
 return (i);
-
 i++;
 }
-
+	
 return (i);
-
 }
