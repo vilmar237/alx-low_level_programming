@@ -21,6 +21,7 @@ if (accept[j] == '\0')
 return (i);
 i++;
 }
+
 return (i);
 }
 
