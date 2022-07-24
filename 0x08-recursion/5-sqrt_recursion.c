@@ -19,7 +19,7 @@ return (-1);
  *   * @n: base number.
  *    *
  *     * Return: the square root of n
- *      */
+*/
 int _sqrt_recursion(int n)
 {
 if (n < 0)
