@@ -1,14 +1,15 @@
 #include "main.h"
 /**
- *  * main - the entry point
- *   * @argc: argument counter
- *    * @argv: array of pointer to strings
- *     *
- *      * Return: 0
+ *  * main - program prints its own name.
+ *   * @argc: argument count
+ *    * @argv: argument vectors
+ *     * Return: 0 on success
 */
 
 
-int main(int argc, char *argv[]) {
+int main(int argc, char *argv[])
+{
 printf("program's name is: %s\n",argv[0]);
 return 0;
 }
+
