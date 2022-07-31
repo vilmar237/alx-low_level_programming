@@ -17,7 +17,8 @@ if (argc != k)
 {
 printf("Error\n");
 return (1);
-}	
+}
 printf("%d\n", atoi(argv[i]) * atoi(argv[j]));
 return (0);
 }
+
