@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- *  * main - program prints its own name.
- *   * @argc: argument count
- *    * @argv: argument vectors
- *     * Return: 0 on success
+ *  * main - the entry point
+ *   * @argc: argument counter
+ *    * @argv: array of pointer to strings
+ *     *
+ *      * Return: 0
 */
-
 
 int main(int argc, char *argv[])
 {
