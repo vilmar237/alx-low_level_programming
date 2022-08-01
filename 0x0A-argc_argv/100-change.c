@@ -17,12 +17,14 @@ if (argc != 2)
 puts("Error");
 return (1);
 }
+
 a = atoi(argv[1]);
 if (a <= 0)
 {
 puts("0");
 return (1);
 }
+
 else
 {
 for (i = 0; i < 5; i++)
@@ -37,3 +39,4 @@ break;
 printf("%d\n", n);
 return (0);
 }
+
