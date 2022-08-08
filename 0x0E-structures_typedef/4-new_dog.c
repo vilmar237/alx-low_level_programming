@@ -45,4 +45,3 @@ for (i = 0; i < ol; i++)
 dog->owner[i] = owner[i];
 return (dog);
 }
-
