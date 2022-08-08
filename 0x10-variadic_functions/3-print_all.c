@@ -33,7 +33,7 @@ printf("%s", str);
  *   * @i: int to print
  *    *
  *     * Return: void
- *      */
+*/
 void print_i(va_list i)
 {
 printf("%d", va_arg(i, int));
