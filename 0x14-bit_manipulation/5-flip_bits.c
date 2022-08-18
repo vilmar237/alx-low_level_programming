@@ -15,9 +15,9 @@ result = 1;
 differnce = n ^ m;
 for (i = 0; i < (sizeof(unsigned long int) * 8); i++)
 {
-										if (result == (differnce & result))
-										j++;
-										result <<= 1;
-										}
+if (result == (differnce & result))
+j++;
+result <<= 1;
+}
 return (j);
 }
